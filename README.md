@@ -25,7 +25,7 @@ ANALYSIS WORKFLOW:<br>
    Verified all columns have non-null values.<br>
    Identified skewness in total amount due to a few high-vaue houses.<br>
    
-2.VARIABLE EXPLORATION<br>
+2. VARIABLE EXPLORATION<br>
    Numeric variables: examined distributions, mean, mdian, standard deviation, outliers. <br>
    Categorical variables: frequency counts and category proportions. <br>
    Outlier analysis: focused on price, area, bedrooms, bathrooms, stories and parking.<br>
@@ -83,7 +83,7 @@ ANALYSIS WORKFLOW:<br>
    Captures linear patterns; better generalization for mid-priced houses.<br>
 
 
-5 SUMMARY & RECOMMENDATIONS:<br>
+5. SUMMARY & RECOMMENDATIONS:<br>
 
    Dataset is clean and ready for modeling.<br>
    Outliers exist in price, area, bedrooms, bathrooms, stories, parking → handle for regression accuracy.<br>
@@ -93,5 +93,5 @@ ANALYSIS WORKFLOW:<br>
    High-priced houses remain challenging due to fewer samples and skewed distribution.<br>
    Despite good model performance for mid-range houses, high-priced houses remain challenging due to limited sample representation, highlighting the need for potential feature engineering or advanced modeling techniques for better predictions in the upper price range.<br>
 
-6 CONCLUSION:<br>
+6. CONCLUSION:<br>
    Overall, this analysis equips us with the insights needed to build a robust predictive model for estimating house prices and informs strategies for feature selection, outlier handling, and model evaluation.<br>
