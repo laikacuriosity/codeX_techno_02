@@ -68,19 +68,18 @@ ANALYSIS WORKFLOW:<br>
 
 4.5 REGRESSION MODEL PERFORMANCE: <br>
 
-Linear Regression:<br>
-   R²: 0.719 → Explains ~72% of price variability.<br>
-   RMSE: 919,252 → Reasonable deviation for high-priced houses.<br>
-   High-priced houses slightly underestimated.<br>
+   Linear Regression:<br>
+         R²: 0.719 → Explains ~72% of price variability.<br>
+         RMSE: 919,252 → Reasonable deviation for high-priced houses.<br>
+         High-priced houses slightly underestimated.<br>
+   Ridge Regression:<br>
+         MSE: 894,983,045,776<br>
+         R²: 0.70 → Slightly lower than linear regression, more stable.<br>
 
-Ridge Regression:<br>
-   MSE: 894,983,045,776<br>
-   R²: 0.70 → Slightly lower than linear regression, more stable.<br>
-
-Lasso Regression:<br>
-   MSE: 845,024,981,326<br>
-   R²: 0.719 → Slightly better than RidgeCV<br>
-   Captures linear patterns; better generalization for mid-priced houses.<br>
+   Lasso Regression:<br>
+         MSE: 845,024,981,326<br>
+         R²: 0.719 → Slightly better than RidgeCV<br>
+         Captures linear patterns; better generalization for mid-priced houses.<br>
 
 
 5. SUMMARY & RECOMMENDATIONS:<br>
